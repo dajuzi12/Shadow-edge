@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F12191526DCBECB00455E25 /* SEMubUser.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F12191426DCBECB00455E25 /* SEMubUser.plist */; };
+		1F12191926DCCDC000455E25 /* SEReservationMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12191726DCCDC000455E25 /* SEReservationMovieViewController.m */; };
+		1F12191A26DCCDC000455E25 /* SEReservationMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12191826DCCDC000455E25 /* SEReservationMovieViewController.xib */; };
+		1F12191E26DCDDEC00455E25 /* SESeCommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12191C26DCDDEC00455E25 /* SESeCommunityTableViewCell.m */; };
+		1F12191F26DCDDEC00455E25 /* SESeCommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12191D26DCDDEC00455E25 /* SESeCommunityTableViewCell.xib */; };
+		1F12192226DD0B6000455E25 /* SESeCommuntiyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12192126DD0B6000455E25 /* SESeCommuntiyModel.m */; };
+		1F12192426DD0BC500455E25 /* SECompleteCirl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F12192326DD0BC500455E25 /* SECompleteCirl.plist */; };
+		1F12192826DD1D8700455E25 /* SESeComDetailiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12192626DD1D8700455E25 /* SESeComDetailiViewController.m */; };
+		1F12192926DD1D8700455E25 /* SESeComDetailiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12192726DD1D8700455E25 /* SESeComDetailiViewController.xib */; };
+		1F12192D26DD242600455E25 /* SEReleaseNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12192B26DD242600455E25 /* SEReleaseNewViewController.m */; };
+		1F12192E26DD242600455E25 /* SEReleaseNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12192C26DD242600455E25 /* SEReleaseNewViewController.xib */; };
+		1F12193126DD2F0800455E25 /* SEMesCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12193026DD2F0800455E25 /* SEMesCenterViewController.m */; };
+		1F12193526DD302800455E25 /* SEMesCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12193326DD302800455E25 /* SEMesCenterTableViewCell.m */; };
+		1F12193626DD302800455E25 /* SEMesCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12193426DD302800455E25 /* SEMesCenterTableViewCell.xib */; };
+		1F12193826DD327C00455E25 /* SENewMsgCData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F12193726DD327C00455E25 /* SENewMsgCData.plist */; };
+		1F12193C26DD35E700455E25 /* SEMyAccInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12193A26DD35E700455E25 /* SEMyAccInfoTableViewCell.m */; };
+		1F12193D26DD35E700455E25 /* SEMyAccInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12193B26DD35E700455E25 /* SEMyAccInfoTableViewCell.xib */; };
+		1F12194126DD388D00455E25 /* SEUserCenterMoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12193F26DD388D00455E25 /* SEUserCenterMoTableViewCell.m */; };
+		1F12194226DD388D00455E25 /* SEUserCenterMoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12194026DD388D00455E25 /* SEUserCenterMoTableViewCell.xib */; };
+		1F12194526DD3E3A00455E25 /* SEReserviUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12194426DD3E3A00455E25 /* SEReserviUserViewController.m */; };
+		1F12194926DD40F700455E25 /* SEUserFeedBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12194726DD40F700455E25 /* SEUserFeedBViewController.m */; };
+		1F12194A26DD40F700455E25 /* SEUserFeedBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F12194826DD40F700455E25 /* SEUserFeedBViewController.xib */; };
+		1F18E78E26D740350067ADB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E78D26D740350067ADB4 /* AppDelegate.m */; };
+		1F18E79126D740350067ADB4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E79026D740350067ADB4 /* SceneDelegate.m */; };
+		1F18E79426D740350067ADB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E79326D740350067ADB4 /* ViewController.m */; };
+		1F18E79726D740350067ADB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F18E79526D740350067ADB4 /* Main.storyboard */; };
+		1F18E79926D740360067ADB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F18E79826D740360067ADB4 /* Assets.xcassets */; };
+		1F18E79F26D740360067ADB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E79E26D740360067ADB4 /* main.m */; };
+		1F18E7A926D740360067ADB4 /* Shadow_edgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7A826D740360067ADB4 /* Shadow_edgeTests.m */; };
+		1F18E7B426D740360067ADB4 /* Shadow_edgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7B326D740360067ADB4 /* Shadow_edgeUITests.m */; };
+		1F18E7C526D741240067ADB4 /* SEMovieTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7C326D741240067ADB4 /* SEMovieTabViewController.m */; };
+		1F18E7C626D741240067ADB4 /* SEMovieTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F18E7C426D741240067ADB4 /* SEMovieTabViewController.xib */; };
+		1F18E7CC26D741F30067ADB4 /* SEEdgeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7CB26D741F30067ADB4 /* SEEdgeBaseViewController.m */; };
+		1F18E7CF26D7421A0067ADB4 /* SEParMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7CE26D7421A0067ADB4 /* SEParMovieViewController.m */; };
+		1F18E7D226D742290067ADB4 /* SESeCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7D126D742290067ADB4 /* SESeCommunityViewController.m */; };
+		1F18E7D526D742430067ADB4 /* SEMinedataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7D426D742430067ADB4 /* SEMinedataViewController.m */; };
+		1F18E7D826D7446C0067ADB4 /* SEMovieNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E7D726D7446C0067ADB4 /* SEMovieNavViewController.m */; };
+		1FE87E8826D8705D00FB7617 /* SEParMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87E8626D8705D00FB7617 /* SEParMovieTableViewCell.m */; };
+		1FE87E8926D8705D00FB7617 /* SEParMovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87E8726D8705D00FB7617 /* SEParMovieTableViewCell.xib */; };
+		1FE87E8C26D872B000FB7617 /* SEHotMovModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87E8B26D872B000FB7617 /* SEHotMovModel.m */; };
+		1FE87E8E26D873E500FB7617 /* SENHMovieSourse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87E8D26D873E500FB7617 /* SENHMovieSourse.plist */; };
+		1FE87E9226D88ED700FB7617 /* SEPoreationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87E9026D88ED700FB7617 /* SEPoreationTableViewCell.m */; };
+		1FE87E9326D88ED700FB7617 /* SEPoreationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87E9126D88ED700FB7617 /* SEPoreationTableViewCell.xib */; };
+		1FE87E9726D8AA5600FB7617 /* SEMovieCaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87E9526D8AA5600FB7617 /* SEMovieCaDetailViewController.m */; };
+		1FE87E9826D8AA5600FB7617 /* SEMovieCaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87E9626D8AA5600FB7617 /* SEMovieCaDetailViewController.xib */; };
+		1FE87E9C26D8AF7F00FB7617 /* SEMyLogAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87E9A26D8AF7F00FB7617 /* SEMyLogAccountViewController.m */; };
+		1FE87E9D26D8AF7F00FB7617 /* SEMyLogAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87E9B26D8AF7F00FB7617 /* SEMyLogAccountViewController.xib */; };
+		1FE87EA126D8AF8E00FB7617 /* SEMyRegisterAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87E9F26D8AF8E00FB7617 /* SEMyRegisterAccountViewController.m */; };
+		1FE87EA226D8AF8E00FB7617 /* SEMyRegisterAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87EA026D8AF8E00FB7617 /* SEMyRegisterAccountViewController.xib */; };
+		1FE87EA626D8AF9D00FB7617 /* SEMyUserAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87EA426D8AF9D00FB7617 /* SEMyUserAgreementViewController.m */; };
+		1FE87EA726D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87EA526D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib */; };
+		22625D7CE0B7FAA55C9E749D /* Pods_Shadow_edge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75517ED0FC16D3E74B98040 /* Pods_Shadow_edge.framework */; };
+		B74069C92701896700AF8230 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74069C82701896700AF8230 /* libresolv.tbd */; };
+		B7406A422701B4B900AF8230 /* QYHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7406A402701B4B900AF8230 /* QYHttpManager.m */; };
+		B7406A432701B4B900AF8230 /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7406A412701B4B900AF8230 /* ResponseObject.m */; };
+		B7406A662701CC8900AF8230 /* SEFFImaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7406A652701CC8800AF8230 /* SEFFImaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F18E7A526D740360067ADB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F18E78126D740350067ADB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F18E78826D740350067ADB4;
+			remoteInfo = "Shadow edge";
+		};
+		1F18E7B026D740360067ADB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F18E78126D740350067ADB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F18E78826D740350067ADB4;
+			remoteInfo = "Shadow edge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B74069E427018F9700AF8230 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F12191426DCBECB00455E25 /* SEMubUser.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SEMubUser.plist; sourceTree = "<group>"; };
+		1F12191626DCCDC000455E25 /* SEReservationMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEReservationMovieViewController.h; sourceTree = "<group>"; };
+		1F12191726DCCDC000455E25 /* SEReservationMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEReservationMovieViewController.m; sourceTree = "<group>"; };
+		1F12191826DCCDC000455E25 /* SEReservationMovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEReservationMovieViewController.xib; sourceTree = "<group>"; };
+		1F12191B26DCDDEC00455E25 /* SESeCommunityTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESeCommunityTableViewCell.h; sourceTree = "<group>"; };
+		1F12191C26DCDDEC00455E25 /* SESeCommunityTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SESeCommunityTableViewCell.m; sourceTree = "<group>"; };
+		1F12191D26DCDDEC00455E25 /* SESeCommunityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SESeCommunityTableViewCell.xib; sourceTree = "<group>"; };
+		1F12192026DD0B6000455E25 /* SESeCommuntiyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESeCommuntiyModel.h; sourceTree = "<group>"; };
+		1F12192126DD0B6000455E25 /* SESeCommuntiyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SESeCommuntiyModel.m; sourceTree = "<group>"; };
+		1F12192326DD0BC500455E25 /* SECompleteCirl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SECompleteCirl.plist; sourceTree = "<group>"; };
+		1F12192526DD1D8700455E25 /* SESeComDetailiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESeComDetailiViewController.h; sourceTree = "<group>"; };
+		1F12192626DD1D8700455E25 /* SESeComDetailiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SESeComDetailiViewController.m; sourceTree = "<group>"; };
+		1F12192726DD1D8700455E25 /* SESeComDetailiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SESeComDetailiViewController.xib; sourceTree = "<group>"; };
+		1F12192A26DD242600455E25 /* SEReleaseNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEReleaseNewViewController.h; sourceTree = "<group>"; };
+		1F12192B26DD242600455E25 /* SEReleaseNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEReleaseNewViewController.m; sourceTree = "<group>"; };
+		1F12192C26DD242600455E25 /* SEReleaseNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEReleaseNewViewController.xib; sourceTree = "<group>"; };
+		1F12192F26DD2F0800455E25 /* SEMesCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMesCenterViewController.h; sourceTree = "<group>"; };
+		1F12193026DD2F0800455E25 /* SEMesCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMesCenterViewController.m; sourceTree = "<group>"; };
+		1F12193226DD302800455E25 /* SEMesCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMesCenterTableViewCell.h; sourceTree = "<group>"; };
+		1F12193326DD302800455E25 /* SEMesCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMesCenterTableViewCell.m; sourceTree = "<group>"; };
+		1F12193426DD302800455E25 /* SEMesCenterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMesCenterTableViewCell.xib; sourceTree = "<group>"; };
+		1F12193726DD327C00455E25 /* SENewMsgCData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SENewMsgCData.plist; sourceTree = "<group>"; };
+		1F12193926DD35E700455E25 /* SEMyAccInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMyAccInfoTableViewCell.h; sourceTree = "<group>"; };
+		1F12193A26DD35E700455E25 /* SEMyAccInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMyAccInfoTableViewCell.m; sourceTree = "<group>"; };
+		1F12193B26DD35E700455E25 /* SEMyAccInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMyAccInfoTableViewCell.xib; sourceTree = "<group>"; };
+		1F12193E26DD388D00455E25 /* SEUserCenterMoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUserCenterMoTableViewCell.h; sourceTree = "<group>"; };
+		1F12193F26DD388D00455E25 /* SEUserCenterMoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEUserCenterMoTableViewCell.m; sourceTree = "<group>"; };
+		1F12194026DD388D00455E25 /* SEUserCenterMoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEUserCenterMoTableViewCell.xib; sourceTree = "<group>"; };
+		1F12194326DD3E3A00455E25 /* SEReserviUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEReserviUserViewController.h; sourceTree = "<group>"; };
+		1F12194426DD3E3A00455E25 /* SEReserviUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEReserviUserViewController.m; sourceTree = "<group>"; };
+		1F12194626DD40F700455E25 /* SEUserFeedBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUserFeedBViewController.h; sourceTree = "<group>"; };
+		1F12194726DD40F700455E25 /* SEUserFeedBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEUserFeedBViewController.m; sourceTree = "<group>"; };
+		1F12194826DD40F700455E25 /* SEUserFeedBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEUserFeedBViewController.xib; sourceTree = "<group>"; };
+		1F18E78926D740350067ADB4 /* Shadow edge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shadow edge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F18E78C26D740350067ADB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F18E78D26D740350067ADB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F18E78F26D740350067ADB4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1F18E79026D740350067ADB4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1F18E79226D740350067ADB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F18E79326D740350067ADB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F18E79626D740350067ADB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F18E79826D740360067ADB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F18E79D26D740360067ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F18E79E26D740360067ADB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F18E7A426D740360067ADB4 /* Shadow edgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shadow edgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F18E7A826D740360067ADB4 /* Shadow_edgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shadow_edgeTests.m; sourceTree = "<group>"; };
+		1F18E7AA26D740360067ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F18E7AF26D740360067ADB4 /* Shadow edgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shadow edgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F18E7B326D740360067ADB4 /* Shadow_edgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shadow_edgeUITests.m; sourceTree = "<group>"; };
+		1F18E7B526D740360067ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F18E7C226D741240067ADB4 /* SEMovieTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMovieTabViewController.h; sourceTree = "<group>"; };
+		1F18E7C326D741240067ADB4 /* SEMovieTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMovieTabViewController.m; sourceTree = "<group>"; };
+		1F18E7C426D741240067ADB4 /* SEMovieTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMovieTabViewController.xib; sourceTree = "<group>"; };
+		1F18E7CA26D741F30067ADB4 /* SEEdgeBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEEdgeBaseViewController.h; sourceTree = "<group>"; };
+		1F18E7CB26D741F30067ADB4 /* SEEdgeBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEEdgeBaseViewController.m; sourceTree = "<group>"; };
+		1F18E7CD26D7421A0067ADB4 /* SEParMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEParMovieViewController.h; sourceTree = "<group>"; };
+		1F18E7CE26D7421A0067ADB4 /* SEParMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEParMovieViewController.m; sourceTree = "<group>"; };
+		1F18E7D026D742290067ADB4 /* SESeCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SESeCommunityViewController.h; sourceTree = "<group>"; };
+		1F18E7D126D742290067ADB4 /* SESeCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SESeCommunityViewController.m; sourceTree = "<group>"; };
+		1F18E7D326D742430067ADB4 /* SEMinedataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMinedataViewController.h; sourceTree = "<group>"; };
+		1F18E7D426D742430067ADB4 /* SEMinedataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMinedataViewController.m; sourceTree = "<group>"; };
+		1F18E7D626D7446C0067ADB4 /* SEMovieNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMovieNavViewController.h; sourceTree = "<group>"; };
+		1F18E7D726D7446C0067ADB4 /* SEMovieNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMovieNavViewController.m; sourceTree = "<group>"; };
+		1FE87E8526D8705D00FB7617 /* SEParMovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEParMovieTableViewCell.h; sourceTree = "<group>"; };
+		1FE87E8626D8705D00FB7617 /* SEParMovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEParMovieTableViewCell.m; sourceTree = "<group>"; };
+		1FE87E8726D8705D00FB7617 /* SEParMovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEParMovieTableViewCell.xib; sourceTree = "<group>"; };
+		1FE87E8A26D872B000FB7617 /* SEHotMovModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEHotMovModel.h; sourceTree = "<group>"; };
+		1FE87E8B26D872B000FB7617 /* SEHotMovModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEHotMovModel.m; sourceTree = "<group>"; };
+		1FE87E8D26D873E500FB7617 /* SENHMovieSourse.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SENHMovieSourse.plist; sourceTree = "<group>"; };
+		1FE87E8F26D88ED700FB7617 /* SEPoreationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEPoreationTableViewCell.h; sourceTree = "<group>"; };
+		1FE87E9026D88ED700FB7617 /* SEPoreationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEPoreationTableViewCell.m; sourceTree = "<group>"; };
+		1FE87E9126D88ED700FB7617 /* SEPoreationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEPoreationTableViewCell.xib; sourceTree = "<group>"; };
+		1FE87E9426D8AA5600FB7617 /* SEMovieCaDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMovieCaDetailViewController.h; sourceTree = "<group>"; };
+		1FE87E9526D8AA5600FB7617 /* SEMovieCaDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMovieCaDetailViewController.m; sourceTree = "<group>"; };
+		1FE87E9626D8AA5600FB7617 /* SEMovieCaDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMovieCaDetailViewController.xib; sourceTree = "<group>"; };
+		1FE87E9926D8AF7F00FB7617 /* SEMyLogAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMyLogAccountViewController.h; sourceTree = "<group>"; };
+		1FE87E9A26D8AF7F00FB7617 /* SEMyLogAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMyLogAccountViewController.m; sourceTree = "<group>"; };
+		1FE87E9B26D8AF7F00FB7617 /* SEMyLogAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMyLogAccountViewController.xib; sourceTree = "<group>"; };
+		1FE87E9E26D8AF8E00FB7617 /* SEMyRegisterAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMyRegisterAccountViewController.h; sourceTree = "<group>"; };
+		1FE87E9F26D8AF8E00FB7617 /* SEMyRegisterAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMyRegisterAccountViewController.m; sourceTree = "<group>"; };
+		1FE87EA026D8AF8E00FB7617 /* SEMyRegisterAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMyRegisterAccountViewController.xib; sourceTree = "<group>"; };
+		1FE87EA326D8AF9D00FB7617 /* SEMyUserAgreementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMyUserAgreementViewController.h; sourceTree = "<group>"; };
+		1FE87EA426D8AF9D00FB7617 /* SEMyUserAgreementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMyUserAgreementViewController.m; sourceTree = "<group>"; };
+		1FE87EA526D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMyUserAgreementViewController.xib; sourceTree = "<group>"; };
+		7CB97D35DDEBA3D6A9611F12 /* Pods-Shadow edge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shadow edge.release.xcconfig"; path = "Target Support Files/Pods-Shadow edge/Pods-Shadow edge.release.xcconfig"; sourceTree = "<group>"; };
+		A8B51D0810EBC65150E27873 /* Pods-Shadow edge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shadow edge.debug.xcconfig"; path = "Target Support Files/Pods-Shadow edge/Pods-Shadow edge.debug.xcconfig"; sourceTree = "<group>"; };
+		B74069C82701896700AF8230 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		B74069D227018F9600AF8230 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		B74069D427018F9600AF8230 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		B74069D727018F9600AF8230 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		B74069D827018F9600AF8230 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		B74069DB27018F9600AF8230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		B74069DD27018F9700AF8230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74069EC2701906500AF8230 /* Shadow edge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Shadow edge.entitlements"; sourceTree = "<group>"; };
+		B7406A3E2701B4B900AF8230 /* QYHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHttpManager.h; sourceTree = "<group>"; };
+		B7406A3F2701B4B900AF8230 /* ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseObject.h; sourceTree = "<group>"; };
+		B7406A402701B4B900AF8230 /* QYHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYHttpManager.m; sourceTree = "<group>"; };
+		B7406A412701B4B900AF8230 /* ResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseObject.m; sourceTree = "<group>"; };
+		B7406A642701CC8800AF8230 /* SEFFImaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEFFImaViewController.h; sourceTree = "<group>"; };
+		B7406A652701CC8800AF8230 /* SEFFImaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEFFImaViewController.m; sourceTree = "<group>"; };
+		C75517ED0FC16D3E74B98040 /* Pods_Shadow_edge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shadow_edge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F18E78626D740350067ADB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74069C92701896700AF8230 /* libresolv.tbd in Frameworks */,
+				22625D7CE0B7FAA55C9E749D /* Pods_Shadow_edge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18E7A126D740360067ADB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18E7AC26D740360067ADB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F18E78026D740350067ADB4 = {
+			isa = PBXGroup;
+			children = (
+				1F18E78B26D740350067ADB4 /* Shadow edge */,
+				1F18E7A726D740360067ADB4 /* Shadow edgeTests */,
+				1F18E7B226D740360067ADB4 /* Shadow edgeUITests */,
+				B74069D627018F9600AF8230 /* push */,
+				1F18E78A26D740350067ADB4 /* Products */,
+				A079A1DFE4A3C24F618DF375 /* Pods */,
+				28853BCAEB56C679B24558B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F18E78A26D740350067ADB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E78926D740350067ADB4 /* Shadow edge.app */,
+				1F18E7A426D740360067ADB4 /* Shadow edgeTests.xctest */,
+				1F18E7AF26D740360067ADB4 /* Shadow edgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F18E78B26D740350067ADB4 /* Shadow edge */ = {
+			isa = PBXGroup;
+			children = (
+				B74069EC2701906500AF8230 /* Shadow edge.entitlements */,
+				1F18E7C726D7413D0067ADB4 /* ParMov */,
+				1F18E7C826D741500067ADB4 /* SeCommunity */,
+				1F18E7C926D741D40067ADB4 /* Mine */,
+				1F18E7C126D740CA0067ADB4 /* edgeTab */,
+				1F18E78C26D740350067ADB4 /* AppDelegate.h */,
+				1F18E78D26D740350067ADB4 /* AppDelegate.m */,
+				1F18E78F26D740350067ADB4 /* SceneDelegate.h */,
+				1F18E79026D740350067ADB4 /* SceneDelegate.m */,
+				1F18E79226D740350067ADB4 /* ViewController.h */,
+				1F18E79326D740350067ADB4 /* ViewController.m */,
+				1F18E79526D740350067ADB4 /* Main.storyboard */,
+				1F18E79826D740360067ADB4 /* Assets.xcassets */,
+				1F18E79D26D740360067ADB4 /* Info.plist */,
+				1F18E79E26D740360067ADB4 /* main.m */,
+			);
+			path = "Shadow edge";
+			sourceTree = "<group>";
+		};
+		1F18E7A726D740360067ADB4 /* Shadow edgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E7A826D740360067ADB4 /* Shadow_edgeTests.m */,
+				1F18E7AA26D740360067ADB4 /* Info.plist */,
+			);
+			path = "Shadow edgeTests";
+			sourceTree = "<group>";
+		};
+		1F18E7B226D740360067ADB4 /* Shadow edgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E7B326D740360067ADB4 /* Shadow_edgeUITests.m */,
+				1F18E7B526D740360067ADB4 /* Info.plist */,
+			);
+			path = "Shadow edgeUITests";
+			sourceTree = "<group>";
+		};
+		1F18E7C126D740CA0067ADB4 /* edgeTab */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E7C226D741240067ADB4 /* SEMovieTabViewController.h */,
+				1F18E7C326D741240067ADB4 /* SEMovieTabViewController.m */,
+				1F18E7C426D741240067ADB4 /* SEMovieTabViewController.xib */,
+				1F18E7D626D7446C0067ADB4 /* SEMovieNavViewController.h */,
+				1F18E7D726D7446C0067ADB4 /* SEMovieNavViewController.m */,
+				1F18E7CA26D741F30067ADB4 /* SEEdgeBaseViewController.h */,
+				1F18E7CB26D741F30067ADB4 /* SEEdgeBaseViewController.m */,
+			);
+			path = edgeTab;
+			sourceTree = "<group>";
+		};
+		1F18E7C726D7413D0067ADB4 /* ParMov */ = {
+			isa = PBXGroup;
+			children = (
+				B7406A3D2701B4B900AF8230 /* HttpManager */,
+				1F18E7CD26D7421A0067ADB4 /* SEParMovieViewController.h */,
+				1F18E7CE26D7421A0067ADB4 /* SEParMovieViewController.m */,
+				1FE87E8526D8705D00FB7617 /* SEParMovieTableViewCell.h */,
+				1FE87E8626D8705D00FB7617 /* SEParMovieTableViewCell.m */,
+				1FE87E8726D8705D00FB7617 /* SEParMovieTableViewCell.xib */,
+				1FE87E9426D8AA5600FB7617 /* SEMovieCaDetailViewController.h */,
+				1FE87E9526D8AA5600FB7617 /* SEMovieCaDetailViewController.m */,
+				1FE87E9626D8AA5600FB7617 /* SEMovieCaDetailViewController.xib */,
+				1F12191626DCCDC000455E25 /* SEReservationMovieViewController.h */,
+				1F12191726DCCDC000455E25 /* SEReservationMovieViewController.m */,
+				1F12191826DCCDC000455E25 /* SEReservationMovieViewController.xib */,
+				1FE87E8F26D88ED700FB7617 /* SEPoreationTableViewCell.h */,
+				1FE87E9026D88ED700FB7617 /* SEPoreationTableViewCell.m */,
+				1FE87E9126D88ED700FB7617 /* SEPoreationTableViewCell.xib */,
+				1FE87E8A26D872B000FB7617 /* SEHotMovModel.h */,
+				1FE87E8B26D872B000FB7617 /* SEHotMovModel.m */,
+				1F12192F26DD2F0800455E25 /* SEMesCenterViewController.h */,
+				1F12193026DD2F0800455E25 /* SEMesCenterViewController.m */,
+				1FE87E8D26D873E500FB7617 /* SENHMovieSourse.plist */,
+				1F12193226DD302800455E25 /* SEMesCenterTableViewCell.h */,
+				1F12193326DD302800455E25 /* SEMesCenterTableViewCell.m */,
+				1F12193426DD302800455E25 /* SEMesCenterTableViewCell.xib */,
+				1F12193726DD327C00455E25 /* SENewMsgCData.plist */,
+				B7406A642701CC8800AF8230 /* SEFFImaViewController.h */,
+				B7406A652701CC8800AF8230 /* SEFFImaViewController.m */,
+			);
+			path = ParMov;
+			sourceTree = "<group>";
+		};
+		1F18E7C826D741500067ADB4 /* SeCommunity */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E7D026D742290067ADB4 /* SESeCommunityViewController.h */,
+				1F18E7D126D742290067ADB4 /* SESeCommunityViewController.m */,
+				1F12192A26DD242600455E25 /* SEReleaseNewViewController.h */,
+				1F12192B26DD242600455E25 /* SEReleaseNewViewController.m */,
+				1F12192C26DD242600455E25 /* SEReleaseNewViewController.xib */,
+				1F12191B26DCDDEC00455E25 /* SESeCommunityTableViewCell.h */,
+				1F12191C26DCDDEC00455E25 /* SESeCommunityTableViewCell.m */,
+				1F12191D26DCDDEC00455E25 /* SESeCommunityTableViewCell.xib */,
+				1F12192526DD1D8700455E25 /* SESeComDetailiViewController.h */,
+				1F12192626DD1D8700455E25 /* SESeComDetailiViewController.m */,
+				1F12192726DD1D8700455E25 /* SESeComDetailiViewController.xib */,
+				1F12192026DD0B6000455E25 /* SESeCommuntiyModel.h */,
+				1F12192126DD0B6000455E25 /* SESeCommuntiyModel.m */,
+				1F12192326DD0BC500455E25 /* SECompleteCirl.plist */,
+			);
+			path = SeCommunity;
+			sourceTree = "<group>";
+		};
+		1F18E7C926D741D40067ADB4 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E7D326D742430067ADB4 /* SEMinedataViewController.h */,
+				1F18E7D426D742430067ADB4 /* SEMinedataViewController.m */,
+				1F12194326DD3E3A00455E25 /* SEReserviUserViewController.h */,
+				1F12194426DD3E3A00455E25 /* SEReserviUserViewController.m */,
+				1F12194626DD40F700455E25 /* SEUserFeedBViewController.h */,
+				1F12194726DD40F700455E25 /* SEUserFeedBViewController.m */,
+				1F12194826DD40F700455E25 /* SEUserFeedBViewController.xib */,
+				1F12193926DD35E700455E25 /* SEMyAccInfoTableViewCell.h */,
+				1F12193A26DD35E700455E25 /* SEMyAccInfoTableViewCell.m */,
+				1F12193B26DD35E700455E25 /* SEMyAccInfoTableViewCell.xib */,
+				1F12193E26DD388D00455E25 /* SEUserCenterMoTableViewCell.h */,
+				1F12193F26DD388D00455E25 /* SEUserCenterMoTableViewCell.m */,
+				1F12194026DD388D00455E25 /* SEUserCenterMoTableViewCell.xib */,
+				1FE87E9926D8AF7F00FB7617 /* SEMyLogAccountViewController.h */,
+				1FE87E9A26D8AF7F00FB7617 /* SEMyLogAccountViewController.m */,
+				1FE87E9B26D8AF7F00FB7617 /* SEMyLogAccountViewController.xib */,
+				1FE87E9E26D8AF8E00FB7617 /* SEMyRegisterAccountViewController.h */,
+				1FE87E9F26D8AF8E00FB7617 /* SEMyRegisterAccountViewController.m */,
+				1FE87EA026D8AF8E00FB7617 /* SEMyRegisterAccountViewController.xib */,
+				1FE87EA326D8AF9D00FB7617 /* SEMyUserAgreementViewController.h */,
+				1FE87EA426D8AF9D00FB7617 /* SEMyUserAgreementViewController.m */,
+				1FE87EA526D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib */,
+				1F12191426DCBECB00455E25 /* SEMubUser.plist */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		28853BCAEB56C679B24558B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74069C82701896700AF8230 /* libresolv.tbd */,
+				C75517ED0FC16D3E74B98040 /* Pods_Shadow_edge.framework */,
+				B74069D227018F9600AF8230 /* UserNotifications.framework */,
+				B74069D427018F9600AF8230 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A079A1DFE4A3C24F618DF375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B51D0810EBC65150E27873 /* Pods-Shadow edge.debug.xcconfig */,
+				7CB97D35DDEBA3D6A9611F12 /* Pods-Shadow edge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B74069D627018F9600AF8230 /* push */ = {
+			isa = PBXGroup;
+			children = (
+				B74069D727018F9600AF8230 /* NotificationViewController.h */,
+				B74069D827018F9600AF8230 /* NotificationViewController.m */,
+				B74069DA27018F9600AF8230 /* MainInterface.storyboard */,
+				B74069DD27018F9700AF8230 /* Info.plist */,
+			);
+			path = push;
+			sourceTree = "<group>";
+		};
+		B7406A3D2701B4B900AF8230 /* HttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				B7406A3E2701B4B900AF8230 /* QYHttpManager.h */,
+				B7406A402701B4B900AF8230 /* QYHttpManager.m */,
+				B7406A3F2701B4B900AF8230 /* ResponseObject.h */,
+				B7406A412701B4B900AF8230 /* ResponseObject.m */,
+			);
+			path = HttpManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F18E78826D740350067ADB4 /* Shadow edge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F18E7B826D740360067ADB4 /* Build configuration list for PBXNativeTarget "Shadow edge" */;
+			buildPhases = (
+				6C906FBACE0C743025D8DB4C /* [CP] Check Pods Manifest.lock */,
+				1F18E78526D740350067ADB4 /* Sources */,
+				1F18E78626D740350067ADB4 /* Frameworks */,
+				1F18E78726D740350067ADB4 /* Resources */,
+				1B56CE41178FC36BF1A4F75A /* [CP] Embed Pods Frameworks */,
+				B74069E427018F9700AF8230 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shadow edge";
+			productName = "Shadow edge";
+			productReference = 1F18E78926D740350067ADB4 /* Shadow edge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F18E7A326D740360067ADB4 /* Shadow edgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F18E7BB26D740360067ADB4 /* Build configuration list for PBXNativeTarget "Shadow edgeTests" */;
+			buildPhases = (
+				1F18E7A026D740360067ADB4 /* Sources */,
+				1F18E7A126D740360067ADB4 /* Frameworks */,
+				1F18E7A226D740360067ADB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F18E7A626D740360067ADB4 /* PBXTargetDependency */,
+			);
+			name = "Shadow edgeTests";
+			productName = "Shadow edgeTests";
+			productReference = 1F18E7A426D740360067ADB4 /* Shadow edgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F18E7AE26D740360067ADB4 /* Shadow edgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F18E7BE26D740360067ADB4 /* Build configuration list for PBXNativeTarget "Shadow edgeUITests" */;
+			buildPhases = (
+				1F18E7AB26D740360067ADB4 /* Sources */,
+				1F18E7AC26D740360067ADB4 /* Frameworks */,
+				1F18E7AD26D740360067ADB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F18E7B126D740360067ADB4 /* PBXTargetDependency */,
+			);
+			name = "Shadow edgeUITests";
+			productName = "Shadow edgeUITests";
+			productReference = 1F18E7AF26D740360067ADB4 /* Shadow edgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F18E78126D740350067ADB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SE;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1F18E78826D740350067ADB4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1F18E7A326D740360067ADB4 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1F18E78826D740350067ADB4;
+					};
+					1F18E7AE26D740360067ADB4 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1F18E78826D740350067ADB4;
+					};
+				};
+			};
+			buildConfigurationList = 1F18E78426D740350067ADB4 /* Build configuration list for PBXProject "Shadow edge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F18E78026D740350067ADB4;
+			productRefGroup = 1F18E78A26D740350067ADB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F18E78826D740350067ADB4 /* Shadow edge */,
+				1F18E7A326D740360067ADB4 /* Shadow edgeTests */,
+				1F18E7AE26D740360067ADB4 /* Shadow edgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F18E78726D740350067ADB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE87E9826D8AA5600FB7617 /* SEMovieCaDetailViewController.xib in Resources */,
+				1FE87EA726D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib in Resources */,
+				1FE87E8E26D873E500FB7617 /* SENHMovieSourse.plist in Resources */,
+				1FE87E8926D8705D00FB7617 /* SEParMovieTableViewCell.xib in Resources */,
+				1F12192E26DD242600455E25 /* SEReleaseNewViewController.xib in Resources */,
+				1F12193826DD327C00455E25 /* SENewMsgCData.plist in Resources */,
+				1F12191A26DCCDC000455E25 /* SEReservationMovieViewController.xib in Resources */,
+				1F12191526DCBECB00455E25 /* SEMubUser.plist in Resources */,
+				1F12194226DD388D00455E25 /* SEUserCenterMoTableViewCell.xib in Resources */,
+				1F12192926DD1D8700455E25 /* SESeComDetailiViewController.xib in Resources */,
+				1F12193626DD302800455E25 /* SEMesCenterTableViewCell.xib in Resources */,
+				1F12192426DD0BC500455E25 /* SECompleteCirl.plist in Resources */,
+				1FE87E9326D88ED700FB7617 /* SEPoreationTableViewCell.xib in Resources */,
+				1F12193D26DD35E700455E25 /* SEMyAccInfoTableViewCell.xib in Resources */,
+				1FE87EA226D8AF8E00FB7617 /* SEMyRegisterAccountViewController.xib in Resources */,
+				1F18E79926D740360067ADB4 /* Assets.xcassets in Resources */,
+				1FE87E9D26D8AF7F00FB7617 /* SEMyLogAccountViewController.xib in Resources */,
+				1F12194A26DD40F700455E25 /* SEUserFeedBViewController.xib in Resources */,
+				1F18E79726D740350067ADB4 /* Main.storyboard in Resources */,
+				1F18E7C626D741240067ADB4 /* SEMovieTabViewController.xib in Resources */,
+				1F12191F26DCDDEC00455E25 /* SESeCommunityTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18E7A226D740360067ADB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18E7AD26D740360067ADB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B56CE41178FC36BF1A4F75A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shadow edge/Pods-Shadow edge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shadow edge/Pods-Shadow edge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shadow edge/Pods-Shadow edge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C906FBACE0C743025D8DB4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shadow edge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F18E78526D740350067ADB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE87E9726D8AA5600FB7617 /* SEMovieCaDetailViewController.m in Sources */,
+				1FE87E8826D8705D00FB7617 /* SEParMovieTableViewCell.m in Sources */,
+				1F12191926DCCDC000455E25 /* SEReservationMovieViewController.m in Sources */,
+				1F18E7C526D741240067ADB4 /* SEMovieTabViewController.m in Sources */,
+				1F12193126DD2F0800455E25 /* SEMesCenterViewController.m in Sources */,
+				1F12194126DD388D00455E25 /* SEUserCenterMoTableViewCell.m in Sources */,
+				1F12194926DD40F700455E25 /* SEUserFeedBViewController.m in Sources */,
+				1F18E79426D740350067ADB4 /* ViewController.m in Sources */,
+				1F12193526DD302800455E25 /* SEMesCenterTableViewCell.m in Sources */,
+				1F12194526DD3E3A00455E25 /* SEReserviUserViewController.m in Sources */,
+				1F18E7CC26D741F30067ADB4 /* SEEdgeBaseViewController.m in Sources */,
+				1FE87EA626D8AF9D00FB7617 /* SEMyUserAgreementViewController.m in Sources */,
+				B7406A422701B4B900AF8230 /* QYHttpManager.m in Sources */,
+				B7406A432701B4B900AF8230 /* ResponseObject.m in Sources */,
+				1FE87EA126D8AF8E00FB7617 /* SEMyRegisterAccountViewController.m in Sources */,
+				1FE87E8C26D872B000FB7617 /* SEHotMovModel.m in Sources */,
+				1FE87E9C26D8AF7F00FB7617 /* SEMyLogAccountViewController.m in Sources */,
+				1F18E7D526D742430067ADB4 /* SEMinedataViewController.m in Sources */,
+				1FE87E9226D88ED700FB7617 /* SEPoreationTableViewCell.m in Sources */,
+				1F18E78E26D740350067ADB4 /* AppDelegate.m in Sources */,
+				1F12192D26DD242600455E25 /* SEReleaseNewViewController.m in Sources */,
+				1F12192826DD1D8700455E25 /* SESeComDetailiViewController.m in Sources */,
+				B7406A662701CC8900AF8230 /* SEFFImaViewController.m in Sources */,
+				1F18E7D226D742290067ADB4 /* SESeCommunityViewController.m in Sources */,
+				1F18E7CF26D7421A0067ADB4 /* SEParMovieViewController.m in Sources */,
+				1F12193C26DD35E700455E25 /* SEMyAccInfoTableViewCell.m in Sources */,
+				1F18E7D826D7446C0067ADB4 /* SEMovieNavViewController.m in Sources */,
+				1F12191E26DCDDEC00455E25 /* SESeCommunityTableViewCell.m in Sources */,
+				1F12192226DD0B6000455E25 /* SESeCommuntiyModel.m in Sources */,
+				1F18E79F26D740360067ADB4 /* main.m in Sources */,
+				1F18E79126D740350067ADB4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18E7A026D740360067ADB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F18E7A926D740360067ADB4 /* Shadow_edgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18E7AB26D740360067ADB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F18E7B426D740360067ADB4 /* Shadow_edgeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F18E7A626D740360067ADB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F18E78826D740350067ADB4 /* Shadow edge */;
+			targetProxy = 1F18E7A526D740360067ADB4 /* PBXContainerItemProxy */;
+		};
+		1F18E7B126D740360067ADB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F18E78826D740350067ADB4 /* Shadow edge */;
+			targetProxy = 1F18E7B026D740360067ADB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F18E79526D740350067ADB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F18E79626D740350067ADB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74069DA27018F9600AF8230 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74069DB27018F9600AF8230 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F18E7B626D740360067ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F18E7B726D740360067ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F18E7B926D740360067ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B51D0810EBC65150E27873 /* Pods-Shadow edge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shadow edge/Shadow edge.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MZC59CT7H5;
+				IBC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				INFOPLIST_FILE = "Shadow edge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = shad.shadowedge.tral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1F18E7BA26D740360067ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB97D35DDEBA3D6A9611F12 /* Pods-Shadow edge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shadow edge/Shadow edge.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MZC59CT7H5;
+				IBC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				INFOPLIST_FILE = "Shadow edge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = shad.shadowedge.tral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1F18E7BC26D740360067ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZC59CT7H5;
+				INFOPLIST_FILE = "Shadow edgeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shadow-edgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shadow edge.app/Shadow edge";
+			};
+			name = Debug;
+		};
+		1F18E7BD26D740360067ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZC59CT7H5;
+				INFOPLIST_FILE = "Shadow edgeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shadow-edgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shadow edge.app/Shadow edge";
+			};
+			name = Release;
+		};
+		1F18E7BF26D740360067ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZC59CT7H5;
+				INFOPLIST_FILE = "Shadow edgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shadow-edgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shadow edge";
+			};
+			name = Debug;
+		};
+		1F18E7C026D740360067ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZC59CT7H5;
+				INFOPLIST_FILE = "Shadow edgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shadow-edgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shadow edge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F18E78426D740350067ADB4 /* Build configuration list for PBXProject "Shadow edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F18E7B626D740360067ADB4 /* Debug */,
+				1F18E7B726D740360067ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F18E7B826D740360067ADB4 /* Build configuration list for PBXNativeTarget "Shadow edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F18E7B926D740360067ADB4 /* Debug */,
+				1F18E7BA26D740360067ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F18E7BB26D740360067ADB4 /* Build configuration list for PBXNativeTarget "Shadow edgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F18E7BC26D740360067ADB4 /* Debug */,
+				1F18E7BD26D740360067ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F18E7BE26D740360067ADB4 /* Build configuration list for PBXNativeTarget "Shadow edgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F18E7BF26D740360067ADB4 /* Debug */,
+				1F18E7C026D740360067ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F18E78126D740350067ADB4 /* Project object */;
+}

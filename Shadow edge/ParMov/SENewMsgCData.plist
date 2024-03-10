@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>message_title</key>
+		<string>活动被赞</string>
+		<key>message_text</key>
+		<string>小柿子赞了你的活动</string>
+		<key>message_date</key>
+		<string>2021-08-30</string>
+	</dict>
+	<dict>
+		<key>message_title</key>
+		<string>活动申请</string>
+		<key>message_text</key>
+		<string>有人申请参与你的观影活动</string>
+		<key>message_date</key>
+		<string>2021-08-30</string>
+	</dict>
+	<dict>
+		<key>message_title</key>
+		<string>欢迎使用</string>
+		<key>message_text</key>
+		<string>欢迎使用影恋奇缘，你可以选择平台中自己喜欢的影院一键预约，无需线下排队。快去体验吧</string>
+		<key>message_date</key>
+		<string>2021-08-27</string>
+	</dict>
+</array>
+</plist>

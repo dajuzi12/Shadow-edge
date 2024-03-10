@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CVCalendar (1.7.0)
+  - IQKeyboardManager (6.5.6)
+  - JCore (2.7.1)
+  - JPush (4.3.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - MJExtension (3.3.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CVCalendar
+  - IQKeyboardManager
+  - JPush
+  - MJExtension
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CVCalendar
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - MJExtension
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CVCalendar: 1174c1b43c1a258970e14c1e8b19ef4106c5900b
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JCore: 9d5bda3a172c65bbe14f2806ab0f6246f8a06065
+  JPush: 88d6361fbec4be7c8b55b20b7fe1c292228f6bc2
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 361b6214602b51a0bdc34fea591de41a96360c4f
+
+COCOAPODS: 1.10.2
