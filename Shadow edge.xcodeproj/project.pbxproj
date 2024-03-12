@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -59,6 +59,7 @@
 		1FE87EA626D8AF9D00FB7617 /* SEMyUserAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE87EA426D8AF9D00FB7617 /* SEMyUserAgreementViewController.m */; };
 		1FE87EA726D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE87EA526D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib */; };
 		22625D7CE0B7FAA55C9E749D /* Pods_Shadow_edge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75517ED0FC16D3E74B98040 /* Pods_Shadow_edge.framework */; };
+		B728D5D72BA0648500E5AA98 /* tea.yaml in Resources */ = {isa = PBXBuildFile; fileRef = B728D5D62BA0648500E5AA98 /* tea.yaml */; };
 		B74069C92701896700AF8230 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B74069C82701896700AF8230 /* libresolv.tbd */; };
 		B7406A422701B4B900AF8230 /* QYHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7406A402701B4B900AF8230 /* QYHttpManager.m */; };
 		B7406A432701B4B900AF8230 /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7406A412701B4B900AF8230 /* ResponseObject.m */; };
@@ -182,6 +183,7 @@
 		1FE87EA526D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEMyUserAgreementViewController.xib; sourceTree = "<group>"; };
 		7CB97D35DDEBA3D6A9611F12 /* Pods-Shadow edge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shadow edge.release.xcconfig"; path = "Target Support Files/Pods-Shadow edge/Pods-Shadow edge.release.xcconfig"; sourceTree = "<group>"; };
 		A8B51D0810EBC65150E27873 /* Pods-Shadow edge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shadow edge.debug.xcconfig"; path = "Target Support Files/Pods-Shadow edge/Pods-Shadow edge.debug.xcconfig"; sourceTree = "<group>"; };
+		B728D5D62BA0648500E5AA98 /* tea.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = tea.yaml; sourceTree = "<group>"; };
 		B74069C82701896700AF8230 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		B74069D227018F9600AF8230 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		B74069D427018F9600AF8230 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
@@ -252,6 +254,7 @@
 		1F18E78B26D740350067ADB4 /* Shadow edge */ = {
 			isa = PBXGroup;
 			children = (
+				B728D5D62BA0648500E5AA98 /* tea.yaml */,
 				B74069EC2701906500AF8230 /* Shadow edge.entitlements */,
 				1F18E7C726D7413D0067ADB4 /* ParMov */,
 				1F18E7C826D741500067ADB4 /* SeCommunity */,
@@ -536,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE87E9826D8AA5600FB7617 /* SEMovieCaDetailViewController.xib in Resources */,
+				B728D5D72BA0648500E5AA98 /* tea.yaml in Resources */,
 				1FE87EA726D8AF9D00FB7617 /* SEMyUserAgreementViewController.xib in Resources */,
 				1FE87E8E26D873E500FB7617 /* SENHMovieSourse.plist in Resources */,
 				1FE87E8926D8705D00FB7617 /* SEParMovieTableViewCell.xib in Resources */,
